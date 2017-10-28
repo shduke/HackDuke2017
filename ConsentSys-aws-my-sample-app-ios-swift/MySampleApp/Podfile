@@ -8,6 +8,7 @@ target 'MySampleApp' do
 
   pod 'AWSAuthCore', '~> 2.6.1'
   pod 'AWSS3', '~> 2.6.1'
+  pod 'AWSAPIGateway', '~> 2.6.1'
   pod 'AWSDynamoDB', '~> 2.6.1'
   pod 'AWSPinpoint', '~> 2.6.1'
   pod 'AWSCognito', '~> 2.6.1'

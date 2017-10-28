@@ -71,6 +71,15 @@ class MainViewController: UITableViewController {
             icon: "Engage", storyboard: "Engage")
         
         demoFeatures.append(demoFeature)
+
+        demoFeature = DemoFeature.init(
+            name: NSLocalizedString("Cloud Logic",
+                comment: "Label for demo menu option."),
+            detail: NSLocalizedString("Run business logic in the cloud without managing servers. Integrate functionality with your app using APIs.",
+                comment: "Description for demo menu option."),
+            icon: "CloudLogicAPIIcon", storyboard: "CloudLogicAPI")
+        
+        demoFeatures.append(demoFeature)
         
         demoFeature = DemoFeature.init(
             name: NSLocalizedString("NoSQL",
