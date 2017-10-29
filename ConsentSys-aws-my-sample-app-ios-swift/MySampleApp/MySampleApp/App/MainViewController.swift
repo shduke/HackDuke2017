@@ -14,6 +14,7 @@
 import UIKit
 import AWSAuthCore
 import AWSAuthUI
+import CoreNFC
 
 class MainViewController: UITableViewController {
     
