@@ -16,7 +16,7 @@ contract Consent {
     //This is pretty much the only function we need for now, it creates the
     //contract and then sets the consent bool as well as your partner
 
-    function createContract(bool consent, address partner) public {
+    function initiateConsent(bool consent, address partner) public {
       string eventMsg = " Does not give Consent ";
       if (consent) {
           eventMsg = " Gives Consent ";
@@ -26,6 +26,9 @@ contract Consent {
     }
 
 
+
+
+    
     //Create a contract and set the consent variable to false
     //also set your partner to the address given
     function createContractEmpty() public {
