@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066D30161FA58C0C00C66850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E293616710D00000000 /* Main.storyboard */; };
+		066D30171FA58C9D00C66850 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066D30111FA589B000C66850 /* EntryViewController.swift */; };
 		CF19DF8E9DCCB78B0472B093 /* Pods_MySampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666EAE33887A55714C30D828 /* Pods_MySampleApp.framework */; };
 		E7A30F0402FDBD5200000000 /* NoSQLModelHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E2977A8204500000000 /* NoSQLModelHelpers.swift */; };
 		E7A30F040901689100000000 /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29432463D000000000 /* UserSettingsViewController.swift */; };
@@ -42,7 +44,6 @@
 		E7A30F04871E7D3200000000 /* NotesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29EF0B390100000000 /* NotesTable.swift */; };
 		E7A30F048994397700000000 /* EngageAnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29E33F8CAF00000000 /* EngageAnalyticsViewController.swift */; };
 		E7A30F0489D28B7600000000 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E295D08607F00000000 /* MainViewController.swift */; };
-		E7A30F0490A2826000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E293616710D00000000 /* Main.storyboard */; };
 		E7A30F0494418F2A00000000 /* UserDataStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29AD0AD33E00000000 /* UserDataStorageViewController.swift */; };
 		E7A30F049AC2B9FB00000000 /* UserEngageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29935AC5ED00000000 /* UserEngageViewController.swift */; };
 		E7A30F04A911414700000000 /* ColorThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29928B4DBC00000000 /* ColorThemeSettings.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		066D30111FA589B000C66850 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryViewController.swift; path = mysampleapp/EntryViewController.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E290716F9C700000000 /* NoSQLSampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoSQLSampleDataGenerator.swift; path = MySampleApp/Demo/NoSQL/NoSQLSampleDataGenerator.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E290FE0969C00000000 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1DD70E2912A1400B00000000 /* NoSQLTableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoSQLTableListViewController.swift; path = MySampleApp/Demo/NoSQL/NoSQLTableListViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -94,7 +96,7 @@
 		1DD70E294C41393A00000000 /* AWSAPI_Q0FKJU3XJ7_RequestSchema.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AWSAPI_Q0FKJU3XJ7_RequestSchema.m; path = MySampleApp/AmazonAws/Api/AWSAPI_Q0FKJU3XJ7_RequestSchema.m; sourceTree = SOURCE_ROOT; };
 		1DD70E294E336C6B00000000 /* DemoFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoFeature.swift; path = MySampleApp/Demo/DemoFeature.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E295A0C34A300000000 /* EngageDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EngageDescriptionViewController.swift; path = MySampleApp/Demo/Engage/EngageDescriptionViewController.swift; sourceTree = SOURCE_ROOT; };
-		1DD70E295B4B867100000000 /* Images.xcassets */ = {isa = PBXFileReference; name = Images.xcassets; path = MySampleApp/App/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		1DD70E295B4B867100000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MySampleApp/App/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		1DD70E295D08607F00000000 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = MySampleApp/App/MainViewController.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E296511156500000000 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1DD70E2966982D0600000000 /* AWSAPI_Q0FKJU3XJ7_ResponseSchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWSAPI_Q0FKJU3XJ7_ResponseSchema.h; path = MySampleApp/AmazonAws/Api/AWSAPI_Q0FKJU3XJ7_ResponseSchema.h; sourceTree = SOURCE_ROOT; };
@@ -125,7 +127,7 @@
 		1DD70E29C3968F0800000000 /* AWSAPI_Q0FKJU3XJ7_ConsenstSysAPIMobileHubClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWSAPI_Q0FKJU3XJ7_ConsenstSysAPIMobileHubClient.h; path = MySampleApp/AmazonAws/Api/AWSAPI_Q0FKJU3XJ7_ConsenstSysAPIMobileHubClient.h; sourceTree = SOURCE_ROOT; };
 		1DD70E29C429690E00000000 /* AWSAPI_Q0FKJU3XJ7_ConsenstSysAPIMobileHubClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AWSAPI_Q0FKJU3XJ7_ConsenstSysAPIMobileHubClient.m; path = MySampleApp/AmazonAws/Api/AWSAPI_Q0FKJU3XJ7_ConsenstSysAPIMobileHubClient.m; sourceTree = SOURCE_ROOT; };
 		1DD70E29C5C382B900000000 /* Engage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Engage.storyboard; path = MySampleApp/Demo/Engage/Engage.storyboard; sourceTree = SOURCE_ROOT; };
-		1DD70E29D5DF13B500000000 /* MySampleApp.entitlements */ = {isa = PBXFileReference; name = MySampleApp.entitlements; path = MySampleApp/MySampleApp.entitlements; sourceTree = SOURCE_ROOT; };
+		1DD70E29D5DF13B500000000 /* MySampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MySampleApp.entitlements; path = MySampleApp/MySampleApp.entitlements; sourceTree = SOURCE_ROOT; };
 		1DD70E29D6C6E61C00000000 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UtilityFunctions.swift; path = MySampleApp/App/Utility/UtilityFunctions.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E29DEEC0FE100000000 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
 		1DD70E29E296BED900000000 /* AWSConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AWSConfiguration.swift; path = MySampleApp/AmazonAws/AWSConfiguration.swift; sourceTree = SOURCE_ROOT; };
@@ -133,7 +135,7 @@
 		1DD70E29E37A086A00000000 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1DD70E29E4973E9C00000000 /* UserSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = UserSettings.storyboard; path = MySampleApp/Demo/UserSettings/UserSettings.storyboard; sourceTree = SOURCE_ROOT; };
 		1DD70E29ECE5DB7100000000 /* UserIdentity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = UserIdentity.storyboard; path = MySampleApp/Demo/UserIdentity/UserIdentity.storyboard; sourceTree = SOURCE_ROOT; };
-		1DD70E29EE94C65600000000 /* MySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = MySampleApp.app; path = MySampleApp.app; sourceTree = "<group>"; };
+		1DD70E29EE94C65600000000 /* MySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MySampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD70E29EF0B390100000000 /* NotesTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotesTable.swift; path = MySampleApp/Demo/NoSQL/NotesTable.swift; sourceTree = SOURCE_ROOT; };
 		1DD70E29F3E950EC00000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1DD70E29F8F55D0100000000 /* ContentDelivery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ContentDelivery.storyboard; path = MySampleApp/Demo/ContentDelivery/ContentDelivery.storyboard; sourceTree = SOURCE_ROOT; };
@@ -348,7 +350,7 @@
 			path = mysampleapp/demo/userdatastorage;
 			sourceTree = "<group>";
 		};
-		B401C979C2636B3D00000000 = {
+		B401C979C2636B3D00000000 /* mainGroup */ = {
 			isa = PBXGroup;
 			children = (
 				B401C979B390C93000000000 /* Frameworks */,
@@ -362,6 +364,7 @@
 		B401C979C3F4BBE100000000 /* MySampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				066D30111FA589B000C66850 /* EntryViewController.swift */,
 				B401C979D86A741100000000 /* AmazonAws */,
 				B401C979B2A9954100000000 /* App */,
 				B401C9793152E0B500000000 /* Demo */,
@@ -448,16 +451,9 @@
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				TargetAttributes = {
-					6B443C481B5DB06200406B17 = {
-						CreatedOnToolsVersion = 6.4;
-						SystemCapabilities = {
-							com.apple.Keychain = {
-								enabled = 1;
-							};
-							com.apple.SafariKeychain = {
-								enabled = 1;
-							};
-						};
+					E66DC04E0000000000000000 = {
+						DevelopmentTeam = 4EU7KH7ZUS;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -469,7 +465,7 @@
 				en,
 				Base,
 			);
-			mainGroup = B401C979C2636B3D00000000;
+			mainGroup = B401C979C2636B3D00000000 /* mainGroup */;
 			productRefGroup = B401C979B3A99BC300000000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -487,6 +483,7 @@
 				E7A30F04EA87554200000000 /* UserSettings.storyboard in Resources */,
 				E7A30F045ECBC51400000000 /* UserIdentity.storyboard in Resources */,
 				E7A30F042B73FE6F00000000 /* NoSQLDatabase.storyboard in Resources */,
+				066D30161FA58C0C00C66850 /* Main.storyboard in Resources */,
 				E7A30F045A3BFA6F00000000 /* ContentDelivery.storyboard in Resources */,
 				E7A30F0468A7121300000000 /* UserDataStorage.storyboard in Resources */,
 				E7A30F0443D75A7F00000000 /* Launch Screen.storyboard in Resources */,
@@ -495,7 +492,6 @@
 				E7A30F044DA1963A00000000 /* CloudLogicAPI.storyboard in Resources */,
 				E7A30F04EEF4C07900000000 /* awsconfiguration.json in Resources */,
 				E7A30F046070A8A900000000 /* Engage.storyboard in Resources */,
-				E7A30F0490A2826000000000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +606,7 @@
 				E7A30F043A56BB0A00000000 /* NoSQLQueryResultViewController.swift in Sources */,
 				E7A30F040DE8E19200000000 /* CloudLogicAPIOperationsViewController.swift in Sources */,
 				E7A30F0436F3392000000000 /* CloudLogicAPIFactory.swift in Sources */,
+				066D30171FA58C9D00C66850 /* EntryViewController.swift in Sources */,
 				E7A30F04B77959A100000000 /* AWSAPI_Q0FKJU3XJ7_RequestSchema.m in Sources */,
 				E7A30F040901689100000000 /* UserSettingsViewController.swift in Sources */,
 				E7A30F047D03F87E00000000 /* AWSAPI_Q0FKJU3XJ7_ResponseSchema.m in Sources */,
@@ -677,6 +674,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iphone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EU7KH7ZUS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -690,6 +690,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -752,6 +753,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
 				CODE_SIGN_IDENTITY = "iphone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EU7KH7ZUS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -765,6 +769,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amazon.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
