@@ -1,0 +1,17 @@
+pragma solidity ^0.4.0;
+contract Consent {
+
+    event UpdateConsentStatus(string _msg, bool _consent);
+    
+    mapping(address => bool) public consenters;
+
+    function setConsent(bool consent) public {
+        string eventMsg = " Does not give Consent ";
+        if (consent) {
+            eventMsg = " Gives Consent ";
+        }
+        UpdateConsentStatus(msg.sender + eventMsg, consent);
+        consenters[msg.sender] = consent;
+    }
+
+}
