@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B443C481B5DB06200406B17"
+               BlueprintIdentifier = "E66DC04E0000000000000000"
                BuildableName = "MySampleApp.app"
                BlueprintName = "MySampleApp"
                ReferencedContainer = "container:MySampleApp.xcodeproj">
@@ -26,13 +26,14 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B443C481B5DB06200406B17"
+            BlueprintIdentifier = "E66DC04E0000000000000000"
             BuildableName = "MySampleApp.app"
             BlueprintName = "MySampleApp"
             ReferencedContainer = "container:MySampleApp.xcodeproj">
@@ -45,6 +46,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -55,7 +57,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B443C481B5DB06200406B17"
+            BlueprintIdentifier = "E66DC04E0000000000000000"
             BuildableName = "MySampleApp.app"
             BlueprintName = "MySampleApp"
             ReferencedContainer = "container:MySampleApp.xcodeproj">
@@ -74,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B443C481B5DB06200406B17"
+            BlueprintIdentifier = "E66DC04E0000000000000000"
             BuildableName = "MySampleApp.app"
             BlueprintName = "MySampleApp"
             ReferencedContainer = "container:MySampleApp.xcodeproj">

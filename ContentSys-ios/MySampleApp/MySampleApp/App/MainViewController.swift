@@ -183,6 +183,17 @@ class MainViewController: UITableViewController {
             assert(false)
         }
     }
+    
+    // Dismiss
+
+    @IBAction func dismissFromDemo(_ sender: UIButton) {
+        
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
+    
+    
 }
 
 class FeatureDescriptionViewController: UIViewController {
